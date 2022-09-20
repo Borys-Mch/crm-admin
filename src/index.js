@@ -1,26 +1,11 @@
 import React from 'react';
 import { render } from "react-dom";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
-
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Login from './pages/Login';
-import Page404 from './pages/Page404';
+import RootRouter from './RootRouter';
 
 render(
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App />}>
-        <Route path="" element={<Login />} />
-        <Route path="*" element={<Page404 />} />
-      </Route>
-    </Routes>
-  </BrowserRouter>,
+  <RootRouter />,
   document.getElementById("root")
 );
 

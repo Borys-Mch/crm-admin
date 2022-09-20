@@ -20,3 +20,11 @@ https://git-scm.com/
 ##  react router
 
 https://reactrouter.com/en/main
+
+## MUI
+
+https://mui.com/
+
+## JSON Server (mock)
+
+https://github.com/typicode/json-server
